@@ -1,0 +1,472 @@
+
+A new version of cluster is available: v1.16.5 -> v1.17.1
+
+    To update this component:   tiup update cluster
+    To update all components:   tiup update --all
+
+Run command on 127.0.0.1(sudo:false): uname -m
+  - Detecting node 127.0.0.1 Arch info ... Shell: host=127.0.0.1, sudo=false, command=`uname -m`
+  - Detecting node 127.0.0.1 Arch info ... Shell: host=127.0.0.1, sudo=false, command=`uname -m`
+  - Detecting node 127.0.0.1 Arch info ... Done
+Run command on 127.0.0.1(sudo:false): uname -s
+  - Detecting node 127.0.0.1 OS info ... Shell: host=127.0.0.1, sudo=false, command=`uname -s`
+  - Detecting node 127.0.0.1 OS info ... Shell: host=127.0.0.1, sudo=false, command=`uname -s`
+  - Detecting node 127.0.0.1 OS info ... Shell: host=127.0.0.1, sudo=false, command=`uname -s`
+  - Detecting node 127.0.0.1 OS info ... Done
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+  - Downloading check tools for linux/amd64 ... Download: component=insight, version=, os=linux, arch=amd64
+download https://tiup-mirrors.pingcap.com/insight-v0.4.2-linux-amd64.tar.gz 2.82 MiB / 2.82 MiB  - Downloading check tools for linux/amd64 ... Done
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... Mkdir: host=127.0.0.1, directories='/tmp/tiup/bin'
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+  - Getting system info of 127.0.0.1:22 ... CopyComponent: component=insight, version=, remote=127.0.0.1:/tmp/tiup os=linux, arch=amd64
+Run command on 127.0.0.1(sudo:false): /tmp/tiup/bin/insight
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Shell: host=127.0.0.1, sudo=false, command=`/tmp/tiup/bin/insight`
+  - Getting system info of 127.0.0.1:22 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... 
+Run command on 127.0.0.1(sudo:false): cat /etc/security/limits.conf
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`cat /etc/security/limits.conf`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`cat /etc/security/limits.conf`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`cat /etc/security/limits.conf`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`cat /etc/security/limits.conf`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`cat /etc/security/limits.conf`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`cat /etc/security/limits.conf`
+Run command on 127.0.0.1(sudo:true): sysctl -a
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=true, command=`sysctl -a`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=true, command=`sysctl -a`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=true, command=`sysctl -a`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=true, command=`sysctl -a`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=true, command=`sysctl -a`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=true, command=`sysctl -a`
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=exist
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=system
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=service
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=package
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=package
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... CheckSys: host=127.0.0.1 type=package
+Run command on 127.0.0.1(sudo:false): ss -lnt
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`ss -lnt`
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`ss -lnt`
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`ss -lnt`
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Shell: host=127.0.0.1, sudo=false, command=`ss -lnt`
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Checking node 127.0.0.1 ... Done
+  - Cleanup check files on 127.0.0.1:22 ... Rmdir: host=127.0.0.1, directories='/tmp/tiup'
+  - Cleanup check files on 127.0.0.1:22 ... Rmdir: host=127.0.0.1, directories='/tmp/tiup'
+  - Cleanup check files on 127.0.0.1:22 ... Rmdir: host=127.0.0.1, directories='/tmp/tiup'
+  - Cleanup check files on 127.0.0.1:22 ... Done
+Node       Check         Result  Message
+----       -----         ------  -------
+127.0.0.1  selinux_conf  Fail    SELinux is not configured to be disabled
+127.0.0.1  service       Fail    service irqbalance not found, should be installed and started
+127.0.0.1  command       Fail    numactl not usable,
+127.0.0.1  cpu-governor  Warn    unable to determine current CPU frequency governor policy
+127.0.0.1  swap          Warn    swap is enabled, please disable it for best performance
+127.0.0.1  memory        Pass    memory size is 31901MB
+127.0.0.1  network       Pass    network speed of eth0 is 10000MB
+127.0.0.1  network       Pass    network speed of loopback0 is 10000MB
+127.0.0.1  sysctl        Fail    net.core.somaxconn = 4096, should 32768 or greater
+127.0.0.1  sysctl        Fail    net.ipv4.tcp_syncookies = 1, should be 0
+127.0.0.1  sysctl        Fail    vm.swappiness = 60, should be 0
+127.0.0.1  thp           Fail    THP is enabled, please disable it for best performance
+127.0.0.1  service       Pass    service firewalld not found, ignore
+127.0.0.1  os-version    Pass    OS is Oracle Linux Server 9.5
+127.0.0.1  cpu-cores     Pass    number of CPU cores / threads: 22
+127.0.0.1  limits        Fail    soft limit of 'stack' for user 'tidb' is not set or too low
+127.0.0.1  limits        Fail    soft limit of 'nofile' for user 'tidb' is not set or too low
+127.0.0.1  limits        Fail    hard limit of 'nofile' for user 'tidb' is not set or too low

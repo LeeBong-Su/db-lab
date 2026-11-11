@@ -1,0 +1,47 @@
+# 단일 노드 클러스터 (노드 1대 = TiKV 3코어/4G + TiDB 2코어/2G + PD 1코어/1G)
+global:
+  user: "tidb"
+  ssh_port: 22
+  deploy_dir: "/tidb-deploy/single"
+  data_dir: "/tidb-data/single"
+  arch: "amd64"
+
+monitored:                      # 3노드 클러스터와 포트 충돌 방지
+  node_exporter_port: 9100
+  blackbox_exporter_port: 9115
+
+server_configs:
+  tikv:
+    storage.block-cache.capacity: "1GB"     # 메모리 상한(4G) 안에서 고정
+  pd:
+    replication.max-replicas: 1             # 스토어가 1개라 복제본 1개
+    replication.location-labels: ["host"]
+
+pd_servers:
+  - host: 127.0.0.1
+    client_port: 2379
+    peer_port: 2380
+    resource_control: { cpu_quota: "100%", memory_limit: "1G" }
+
+tikv_servers:
+  - host: 127.0.0.1
+    port: 20160
+    status_port: 20180
+    config:
+      server.labels: { host: "node1" }
+    resource_control: { cpu_quota: "300%", memory_limit: "4G" }
+
+tidb_servers:
+  - host: 127.0.0.1
+    port: 4000
+    status_port: 10080
+    resource_control: { cpu_quota: "200%", memory_limit: "2G" }
+
+monitoring_servers:
+  - host: 127.0.0.1
+    port: 9091
+    ng_port: 12020
+
+grafana_servers:
+  - host: 127.0.0.1
+    port: 3001                  # 3000은 기존 Docker Grafana용으로 비워 둠

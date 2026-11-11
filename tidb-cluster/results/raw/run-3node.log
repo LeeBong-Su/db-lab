@@ -1,0 +1,6 @@
+[3node] prepare rc=0 65.4s
+{"cluster": "3node", "workload": "oltp_read_only", "threads": 32, "tps": 567.39, "qps": 9078.21, "lat_avg_ms": 56.35, "lat_p95_ms": 75.82, "cores_total": 10.88, "host_cpu_pct": 56.4, "rc": 0}
+{"cluster": "3node", "workload": "oltp_point_select", "threads": 32, "tps": 9497.88, "qps": 9497.88, "lat_avg_ms": 3.37, "lat_p95_ms": 5.18, "cores_total": 10.4, "host_cpu_pct": 55.0, "rc": 0}
+{"cluster": "3node", "workload": "oltp_read_only", "threads": 32, "tps": 512.11, "qps": 8193.71, "lat_avg_ms": 62.46, "lat_p95_ms": 84.47, "cores_total": 10.98, "host_cpu_pct": 57.0, "rc": 0}
+{"cluster": "3node", "workload": "oltp_write_only", "threads": 32, "tps": 538.42, "qps": 3230.49, "lat_avg_ms": 59.4, "lat_p95_ms": 73.13, "cores_total": 9.29, "host_cpu_pct": 48.3, "rc": 0}
+{"cluster": "3node", "workload": "oltp_read_write", "threads": 32, "tps": 248.28, "qps": 4965.67, "lat_avg_ms": 128.77, "lat_p95_ms": 164.45, "cores_total": 11.58, "host_cpu_pct": 59.5, "rc": 0}

@@ -1,0 +1,54 @@
+# 3노드 클러스터 (노드마다 단일 노드와 같은 자원: TiKV 3코어/4G + TiDB 2코어/2G + PD 1코어/1G)
+global:
+  user: "tidb"
+  ssh_port: 22
+  deploy_dir: "/tidb-deploy/3node"
+  data_dir: "/tidb-data/3node"
+  arch: "amd64"
+
+monitored:
+  node_exporter_port: 9101
+  blackbox_exporter_port: 9116
+
+server_configs:
+  tikv:
+    storage.block-cache.capacity: "1GB"
+  pd:
+    replication.max-replicas: 3             # Raft 복제본 3개 (기본값)
+    replication.location-labels: ["host"]   # 같은 host 라벨에 복제본이 겹치지 않게
+
+pd_servers:
+  - { host: 127.0.0.1, client_port: 2381, peer_port: 2382, resource_control: { cpu_quota: "100%", memory_limit: "1G" } }
+  - { host: 127.0.0.1, client_port: 2383, peer_port: 2384, resource_control: { cpu_quota: "100%", memory_limit: "1G" } }
+  - { host: 127.0.0.1, client_port: 2385, peer_port: 2386, resource_control: { cpu_quota: "100%", memory_limit: "1G" } }
+
+tikv_servers:
+  - host: 127.0.0.1
+    port: 20161
+    status_port: 20181
+    config: { server.labels: { host: "node1" } }
+    resource_control: { cpu_quota: "300%", memory_limit: "4G" }
+  - host: 127.0.0.1
+    port: 20162
+    status_port: 20182
+    config: { server.labels: { host: "node2" } }
+    resource_control: { cpu_quota: "300%", memory_limit: "4G" }
+  - host: 127.0.0.1
+    port: 20163
+    status_port: 20183
+    config: { server.labels: { host: "node3" } }
+    resource_control: { cpu_quota: "300%", memory_limit: "4G" }
+
+tidb_servers:
+  - { host: 127.0.0.1, port: 4001, status_port: 10081, resource_control: { cpu_quota: "200%", memory_limit: "2G" } }
+  - { host: 127.0.0.1, port: 4002, status_port: 10082, resource_control: { cpu_quota: "200%", memory_limit: "2G" } }
+  - { host: 127.0.0.1, port: 4003, status_port: 10083, resource_control: { cpu_quota: "200%", memory_limit: "2G" } }
+
+monitoring_servers:
+  - host: 127.0.0.1
+    port: 9092
+    ng_port: 12021
+
+grafana_servers:
+  - host: 127.0.0.1
+    port: 3002
